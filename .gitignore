@@ -1,0 +1,17 @@
+# Python & Cache
+__pycache__/
+*.py[cod]
+.venv/
+env/
+
+# Models & Weights
+outputs/
+qwen_tender_model/
+*.safetensors
+*.bin
+*.pt
+*.gguf
+
+# Logs & OS
+*.log
+.DS_Store
