@@ -1,6 +1,25 @@
-streamlit
-huggingface_hub
-chromadb
-sentence-transformers
+# --- Unsloth & Core ML Training ---
+unsloth[colab-new] @ git+https://github.com/unslothai/unsloth.git
+xformers
+triton>=3.0.0
+bitsandbytes
+datasets
+trl
+peft
+
+# --- Model Serving & Inference ---
+llama-cpp-python>=0.2.70
+huggingface_hub>=0.20.0
+vllm
+
+# --- RAG, Vector Search & Data Processing ---
+chromadb>=0.4.22
+sentence-transformers>=2.3.0
 docling
-pydantic
+langchain-text-splitters
+pypdf>=4.0.0
+json_repair
+tqdm
+
+# --- UI Framework ---
+streamlit>=1.30.0
